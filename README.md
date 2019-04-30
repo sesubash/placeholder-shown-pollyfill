@@ -8,10 +8,10 @@ Reference:  https://codepen.io/wesbos/pen/KggoOo
 Usage:
 
 HTML:
-<input type="text" placeholder="First Name">
+`<input type="text" placeholder="First Name">`
 
 CSS:
-
+```
 input {
   border: 5px solid red;
   outline: 0;
@@ -32,3 +32,4 @@ input.placeholder-shown {
 input:placeholder-shown {
   border-color: green;
 }
+```
