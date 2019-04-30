@@ -7,9 +7,6 @@ Reference:  https://codepen.io/wesbos/pen/KggoOo
 
 Usage:
 
-intallation:
-npm install placeholder-shown-polyfill
-
 HTML:
 <input type="text" placeholder="First Name">
 
@@ -23,6 +20,15 @@ input {
   margin: 50px;
 }
 
-input:placeholder-shown, input.placeholder-shown {
+input:-moz-placeholder {
+  border-color: green;
+}
+input:-ms-input-placeholder {
+  border-color: green;
+}
+input.placeholder-shown {
+  border-color: green;
+}
+input:placeholder-shown {
   border-color: green;
 }
